@@ -44,8 +44,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ardituran/ardituran/output/github-snake-dark.svg" />
-    <img alt="Snake animation of my GitHub contributions" src="https://raw.githubusercontent.com/ardituran/ardituran/output/github-snake.svg" width="90%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ardituran/ardituran/ardituran/chore/snake-output/github-snake-dark.svg" />
+    <img alt="Snake animation of my GitHub contributions" src="https://raw.githubusercontent.com/ardituran/ardituran/ardituran/chore/snake-output/github-snake.svg" width="90%" />
   </picture>
 </p>
 
