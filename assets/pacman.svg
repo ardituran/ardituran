@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 64" width="480" height="64" role="img" aria-label="Pac-Man eating dots">
+  <!-- dots: each one fades out just as Pac-Man reaches it -->
+  <g fill="#f59e0b">
+    <circle cx="80" cy="32" r="5">
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.207;0.227;0.294;1" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="140" cy="32" r="5">
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.314;0.334;0.401;1" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="200" cy="32" r="5">
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.421;0.441;0.509;1" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="260" cy="32" r="5">
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.529;0.549;0.616;1" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="320" cy="32" r="5">
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.636;0.656;0.723;1" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="380" cy="32" r="5">
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.743;0.763;0.830;1" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="440" cy="32" r="5">
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.850;0.870;0.938;1" dur="4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Pac-Man, moving left to right -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="-60 0; 500 0" keyTimes="0;1" calcMode="linear" dur="4s" repeatCount="indefinite"/>
+    <!-- top half, chomping open and shut -->
+    <path d="M 4,32 A 20,20 0 0,1 44,32 L 24,32 Z" fill="#facc15">
+      <animateTransform attributeName="transform" type="rotate" values="0 24 32; -30 24 32; 0 24 32" keyTimes="0;0.5;1" dur="0.5s" repeatCount="indefinite"/>
+    </path>
+    <!-- bottom half -->
+    <path d="M 4,32 A 20,20 0 0,0 44,32 L 24,32 Z" fill="#facc15">
+      <animateTransform attributeName="transform" type="rotate" values="0 24 32; 30 24 32; 0 24 32" keyTimes="0;0.5;1" dur="0.5s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="31" cy="22" r="3" fill="#1e293b"/>
+  </g>
+</svg>
