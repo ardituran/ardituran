@@ -1,12 +1,13 @@
 <div align="center">
-  <img src="assets/banner.svg" alt="Idris Ardi - QA engineer. Manual testing since 2014. Learning test automation since 2024." width="100%" />
+  <img src="assets/banner.svg" alt="Idris Ardi - QA Engineer | Manual Testing Specialist | Detail-Oriented &amp; Process-Driven" width="100%" />
 </div>
 
 <h1 align="center">Hello, I'm Idris Ardi</h1>
 
 <p align="center">
-  A QA engineer. I have been doing manual testing since 2014.<br />
-  I started learning test automation in 2024, and I am still learning.
+  QA engineer with 10+ years of manual and exploratory testing across government technology, procurement, education technology, fintech, e-commerce, SaaS, and telecom industries.<br />
+  I identify edge cases, document defects with clear reproduction steps, and support User Acceptance Testing across web and mobile platforms. I collaborate with developers, product managers, and business stakeholders in Agile teams.<br />
+  Strong manual testing foundation with practical automation exposure as a contributor since 2024, using Playwright and related tooling.
 </p>
 
 <p align="center">
